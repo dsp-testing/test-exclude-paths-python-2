@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directories:
+      - "/"
+      - "/backend"
+      - "/backend/packages/*"
+    schedule:
+      interval: "weekly"
+    exclude-paths:
+      # Customer's attempts to exclude the template directory
+      # None of these patterns work as expected
+      - "backend/packages/template/**"
+      - "backend/packages/template/*"
+      - "**/template/**"
+      # Additional patterns tried
+      - "packages/template/**"  # For "/backend" directory
+      - "template/**"          # For "/backend/packages/*" directories
+    open-pull-requests-limit: 10
