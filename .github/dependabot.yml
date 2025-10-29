@@ -17,3 +17,4 @@ updates:
       - "packages/template/**"  # For "/backend" directory
       - "template/**"          # For "/backend/packages/*" directories
     open-pull-requests-limit: 11
+
