@@ -35,9 +35,9 @@ test = [
 [dependency-groups]
 lint = [
     "flake8==6.0.0",
-    "mypy==1.5.0"
+    "mypy==1.18.2"
 ]
 
 typing = [
-    "types-requests==2.31.0"
+    "types-requests==2.32.4.20250913"
 ]
