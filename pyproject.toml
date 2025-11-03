@@ -16,8 +16,8 @@ authors = [
 ]
 
 dependencies = [
-    "fastapi==0.104.1",
-    "pydantic==2.5.0",
+    "fastapi==0.120.4",
+    "pydantic==2.12.3",
     "uvicorn==0.20.0"
 ]
 
